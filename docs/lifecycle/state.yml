@@ -1,0 +1,18 @@
+protocol_version: "2"
+current_phase: 1
+current_state: "ready_to_execute"
+blocking_now: false
+blocking_reason: ""
+stop_reason: "Lifecycle initialized. Ready to begin Phase 1."
+next_required_human_action: "Answer Phase 1 discovery questions if the AI asks them."
+expected_human_reply: null
+current_execution_protocol: "docs/lifecycle/execution/phase-1.md"
+current_phase_artifact: "docs/lifecycle/state/phase-1.md"
+linked_artifacts:
+  - "docs/product/problem.md"
+project_anchor_docs:
+  - "docs/product/problem.md"
+  - "docs/product/scope.md"
+reopened_from_phase: null
+return_to_phase: null
+reopen_notice_present: false
